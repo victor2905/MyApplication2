@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="txtViewGrados">23°</string>
+    <string name="txtViewCiudad">Ciudad de Quito</string>
+    <string name="txtViewStatus">Nublado</string>
+    <string name="txtViewBienvenida">Bienvenidos, a mi aplicación de clima, para poder acceder a esta. Presiona en la opción de abajo.</string>
+    <string name="btnClima">CLIMA DE LA CIUDAD DE QUITO</string>
+    <string name="btnClima2">CLIMA DE LA CIUDAD DE MOSCÚ</string>
+</resources>

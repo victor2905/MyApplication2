@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#433FB5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtViewGrados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="422dp"
+        android:text="@string/txtViewGrados"
+        android:textColor="@color/colorGrados"
+        android:textSize="72sp" />
+
+    <TextView
+        android:id="@+id/txtViewCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="327dp"
+        android:text="@string/txtViewCiudad"
+        android:textColor="@color/colorCiudad"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="609dp"
+        android:text="@string/txtViewStatus"
+        android:textColor="@color/colorStatus"
+        android:textSize="26sp" />
+
+</RelativeLayout>
